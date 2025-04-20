@@ -1,0 +1,66 @@
+body {
+  background-color: #808080;
+  font-family: Arial, sans-serif;
+
+}
+
+.home{
+  background-color: #FAF9F6;
+
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.2;
+  color: #D2042D;
+}
+
+.biography {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.2;
+  color: #D2042D;
+}
+
+.biography p {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.2;
+  color: #D2042D;
+}
+
+.mePic {
+  width: 350px;
+  height: 200px;
+  border-radius: 10%;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btnProjects, .btnContact {
+  background-color: #D2042D;
+  color: #FAF9F6;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btnProjects:hover, .btnContact:hover {
+  background-color: #b1d61c;
+  transform: scale(1.05);
+}

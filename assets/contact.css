@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    background-color: #808080;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page specific styles */
+  .contact-page {
+    background-color: #FAF9F6;
+    padding: 30px;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+    color: #D2042D;
+  }
+
+   h3 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+    color: #D2042D;
+    margin-bottom: 40px;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #D2042D;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #FFF;
+  }
+  
+  .btnSubmit {
+    background-color: #D2042D;
+    color: #FAF9F6;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    
+  }
+  .btnSubmitCont {
+    text-align: center;
+  }
+  
+  .btnSubmit:hover {
+    background-color: #aed61c;
+    transform: scale(1.05);
+  }
+  
+  /* Return button */
+  .btnBackCont {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .btnBack {
+    background-color: #D2042D;
+    color: #FAF9F6;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .btnBack:hover {
+    background-color: #abd61c;
+    transform: scale(1.05);
+  }

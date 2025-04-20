@@ -1,0 +1,76 @@
+.infoPage {
+    background-color: #FAF9F6;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    padding: 40px 20px;
+  }
+  
+  /* Corner cards */
+  .corners {
+    position: absolute;
+    background-color: #FAF9F6;
+    color: #D2042D;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 300px;
+    font-size: 16px;
+  }
+  
+  .tLeft {
+    top: 20px;
+    left: 20px;
+    text-align: left;
+  }
+  
+  .tRight {
+    top: 20px;
+    right: 20px;
+    text-align: right;
+  }
+  
+  /* Center project section */
+  .projectsCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    padding: 40px 20px;
+  }
+  
+  .projectsCont h1 {
+    font-size: 42px;
+    color: #D2042D;
+    margin-bottom: 20px;
+  }
+  
+  .projectList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .projectList li {
+    font-size: 20px;
+    padding: 12px 0;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+  }
+  
+  /* Button styling */
+  .backBtn {
+    background-color: #D2042D;
+    color: #FAF9F6;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .backBtn:hover {
+    background-color: #c0d61c;
+    transform: scale(1.05);
+  }
